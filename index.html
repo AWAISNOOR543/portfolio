@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awais Noor</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #274a70;
+            margin: 0;
+            padding: 0;
+        }
+
+        #page {
+            max-width: 1200px;
+            margin: 0 auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+
+        .logo {
+            text-align: center;
+            padding: 20px 0;
+        }
+
+
+        .student {
+            padding: 20px 0;
+        }
+
+        .student h1 {
+            text-align: center;
+            color: #9e3483;
+        }
+
+        .student-card {
+            display: flex;
+            border: 1px solid #70629a;
+            flex-wrap: wrap;
+            border-radius: 10px;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            box-shadow: 0 2px 15px 3px rgba(0, 0, 0, 0.2); 
+        }
+        @media only screen and (max-width: 500px){
+    .student-card{
+        
+        flex-direction: column;
+    }
+}
+
+        .student-image {
+            flex: 1;
+            text-align: center;
+        }
+
+        .student-image img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .student-info {
+            flex: 2;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .column {
+            padding: 10px;
+            margin-bottom: -30px;
+        }
+
+        .column2 {
+            padding: 10px;
+            margin-bottom: 0;
+        }
+
+        .column2 h2 {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #9e3483;
+            line-height: 1.25em;
+            margin-top: 0;
+        }
+
+
+        hr {
+            border: 0;
+            height: 1px;
+            background-color: #70629a;
+            margin: 20px 0;
+        }
+
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body id="home">
+    <div id="page">
+        <div class="student">
+            <h1>Student Information</h1>
+            <div class="student-card">
+                <div class="student-image">
+                    <img src="https://i.pinimg.com/736x/6b/aa/98/6baa98cc1c3f4d76e989701746e322dd.jpg"
+                        alt="Student Profile Img" />
+                    <h3 class="student-name">Muhammad Awais Noor</h3>
+                </div>
+                <div class="student-info">
+                    <div class="column">
+                        <h3>Campus:</h3>
+                        <p>UET, Peshawar</p>
+                    </div>
+                    <div class="column">
+                        <h3>Working Timing:</h3>
+                        <p>Make sure to leave a mail, we will be right back to you shortly.</p>
+                    </div>
+                    <div class="column">
+                        <h3>CONTACT:</h3>
+                        <p>mohammad (at) uetpeshawar (dot) edu (dot) pk</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="student">
+            <h1>Interest In Domains</h1>
+            <div class="student-card">
+                <div class="column2">
+                    <h2>Web Development:</h2>
+                    <ul>
+                        <li><b>Passionate web developer, honing my skill for full stack development.</li>
+                        <li><b>React Native Apps</li>
+                        <li><b>APIs Developer</li>
+                        <li><b>Web 3.0 Development</b></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
